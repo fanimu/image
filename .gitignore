@@ -1,0 +1,44 @@
+# Direktori node_modules akan diabaikan karena biasanya berisi modul-node yang besar
+node_modules/
+
+# Berkas npm-debug.log akan diabaikan
+npm-debug.log
+
+# Berkas yang dihasilkan oleh alat pengembangan atau editor tertentu
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# Berkas konfigurasi lokal
+config.js
+
+# Berkas pustaka yang dihasilkan oleh alat pengembangan seperti Babel atau TypeScript
+/lib/
+/out/
+
+# Berkas sementara dan cache
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pids
+*.code-workspace
+
+# Berkas yang berisi kunci rahasia atau data sensitif
+.env
+
+# Berkas yang dihasilkan oleh alat otomasi seperti Cypress
+/cypress/videos/
+/cypress/screenshots/
